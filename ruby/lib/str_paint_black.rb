@@ -11,13 +11,3 @@ module StringExt
     end
   end
 end
-
-using StringExt
-
-str1 = "あいうえお"
-str2 = "かきくけこ"
-str1.paint_black
-str2.paint_black!
-
-p str1 # => "あいうえお"
-p str2 # => "か●く●こ"
